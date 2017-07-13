@@ -1,0 +1,81 @@
+#!/bin/bash
+
+echo "The scripts for installing default soft, by Mr CaT"
+
+echo ""
+
+echo "Installing GIT..."
+
+sudo apt update
+
+sudo apt install git
+
+echo "Installing Mercurial | BitBucket's GIT client..."
+sudo apt update
+
+sudo apt install mercurial
+
+echo "Installing VLC Media player..."
+
+sudo apt update
+
+sudo apt install vlc
+
+echo "Installing Synaptic..."
+
+sudo apt install synaptic
+
+echo "Installing SQL MAP..."
+
+sudo apt install sqlmap
+
+echo "Installing Pulse Audio Equalizer..."
+
+sudo apt-add-repository ppa:nilarimogard/webupd8
+
+sudo apt-get update
+
+sudo apt-get install pulseaudio-equalizer
+
+echo "Installing Telegram Desktop..."
+
+sudo add-apt-repository ppa:atareao/telegram
+
+sudo apt update
+
+sudo apt install telegram
+
+echo "Installing Chromium Browser..."
+
+sudo apt update
+
+sudo apt install chromium-browser
+
+echo "Installing XDMAN..."
+
+wget -c "http://downloads.sourceforge.net/project/xdman/xdman.deb?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxdman%2F&ts=1478419832&use_mirror=heanet" -O xdman.deb
+
+sudo dpkg -i xdman.deb
+
+sudo apt install -f 
+
+echo "Installing Discord..."
+
+wget https://discordapp.com/api/download?platform=linux&format=deb
+
+sudo dpkg -i  download?platform=linux
+
+echo "Installing Sublime Text 3..."
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+
+sudo apt-get update
+
+sudo apt-get install sublime-text-installer
+
+echo "-------------------------------------------------------------------"
+
+echo "The script had been written by Mr CaT"
+echo "Special thanks to Mr CaT"
+echo "Mr CaT in telegram: @mrcat323"
+

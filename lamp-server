@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sudo apt update
+
+sudo apt install tasksel
+
+sudo tasksel install lamp-server
+
+sudo apt install phpmyadmin
+
+echo "  "
+
+echo "(c) Copyright by Mr CaT 2017 for Linuxoids"
+
