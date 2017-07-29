@@ -11,13 +11,10 @@ sudo apt update
 sudo apt install git
 
 echo "Installing Mercurial | BitBucket's GIT client..."
-sudo apt update
 
 sudo apt install mercurial
 
 echo "Installing VLC Media player..."
-
-sudo apt update
 
 sudo apt install vlc
 
@@ -46,8 +43,6 @@ sudo apt update
 sudo apt install telegram
 
 echo "Installing Chromium Browser..."
-
-sudo apt update
 
 sudo apt install chromium-browser
 
