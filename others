@@ -30,9 +30,9 @@ echo "Installing Pulse Audio Equalizer..."
 
 sudo apt-add-repository ppa:nilarimogard/webupd8
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install pulseaudio-equalizer
+sudo apt install pulseaudio-equalizer
 
 echo "Installing Telegram Desktop..."
 
@@ -64,9 +64,9 @@ echo "Installing Sublime Text 3..."
 
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install sublime-text-installer
+sudo apt install sublime-text-installer
 
 echo "-------------------------------------------------------------------"
 
