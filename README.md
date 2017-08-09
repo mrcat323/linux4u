@@ -3,6 +3,6 @@
 *others* - That's for installing programms such as GIT, Mercurial, VLC, Discord, Sublime Text 3 and etc<br>
 *set* - It's for installing packages, `./set package.deb`<br>
 <h3>Use for fun!</h3>
-`./lamp-server` - Installing LAMP SERVER
-`./others` - Installing other programms
-<b>(c) Copyright by Mr CaT 2017 for Linuxoids</b>
+` ./lamp-server` -> Installing LAMP SERVER
+` ./others` -> Installing other programms
+**(c) Copyright by Mr CaT 2017 for Linuxoids**
