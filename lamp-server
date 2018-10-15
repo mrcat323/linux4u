@@ -6,10 +6,10 @@ if ! [ -x "$(command -v tasksel)" ]; then
  sudo apt install tasksel
 fi
 sudo tasksel install lamp-server
-
+sudo ufw allow in "Apache Full"
+mysql_secure_installation
 sudo apt install phpmyadmin
 
 echo "  "
 
-echo "(c) Copyright by Mr CaT 2017 for Linuxoids"
-
+echo "(c) Copyright by Mr CaT 2017-18 for Linuxoids"
