@@ -1,5 +1,0 @@
-#!/bin/bash
-
-package=$1
-
-sudo dpkg -i $package
