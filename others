@@ -1,16 +1,12 @@
 #!/bin/bash
 
-printf "%s \n" "The scripts for installing default soft, by Mr CaT"
+printf "%s \n" "The scripts for installing programs for 'Quick Start', by Mr CaT"
 
 sudo apt-get update
 
 printf "%s \n" "Installing GIT..."
 
 sudo apt-get install git
-
-printf "%s \n" "Installing Mercurial | BitBucket's GIT client..."
-
-sudo apt-get install mercurial
 
 printf "%s \n" "Installing VLC Media player..."
 
@@ -19,10 +15,6 @@ sudo apt-get install vlc
 printf "%s \n" "Installing Synaptic..."
 
 sudo apt-get install synaptic
-
-printf "%s \n" "Installing SQL MAP..."
-
-sudo apt-get install sqlmap
 
 printf "%s \n" "Installing Pulse Audio Equalizer..."
 
@@ -43,14 +35,6 @@ sudo apt-get install telegram
 printf "%s \n" "Installing Chromium Browser..."
 
 sudo apt-get install chromium-browser
-
-printf "%s \n" "Installing XDMAN..."
-
-wget -c "http://downloads.sourceforge.net/project/xdman/xdman.deb?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fxdman%2F&ts=1478419832&use_mirror=heanet" -O xdman.deb
-
-sudo dpkg -i xdman.deb
-
-sudo apt-get install -f 
 
 printf "%s \n" "Installing Discord..."
 
